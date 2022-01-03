@@ -8,15 +8,15 @@ int main (){
 	
 	int c = 0;
 	
-	c=a
-	a=b
-	b=c
+	c=a;
+	a=b;
+	b=c;
 	
 	
 	
 	
-	printf("O valor de  %d\n",a);
+	printf("O valor de a %d\n",a);
 	
-	printf("O valor de  %d\n",b);
+	printf("O valor de b %d\n",b);
 	
 }
