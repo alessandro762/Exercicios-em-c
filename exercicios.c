@@ -14,43 +14,43 @@ resultado:
 
 	double a = 6*(3+2);
 		printf(" O valor de  a =%.1F \n",a );
-		printf ("Os parentese nao poder ser alterado pois o valor final e diferente");	
+		printf ("Os parentese nao poder ser alterado pois o valor final e diferente\n\n");	
 
 	double b = 2+(6*(3+2));
 		printf (" O valor de b= %.1f\n",b);
-		printf (" Os parêntese foi alterado pois o valor final e igual");
+		printf (" Os parêntese foi alterado pois o valor final e igual\n\n");
 
 	double c = 2+(3*6)/(2+4);
 		printf (" O valor de c= %.1f\n",c);
-		printf (" Os parêntese  não pode ser alterado pois o resultado final e diferente");
+		printf (" Os parêntese  não pode ser alterado pois o resultado final e diferente\n\n");
 
 	double d = 2*(8/(3+1));
-	 	printf (" O valor de d=%.1f",d);
-	 	printf (" Os parêntes foi alterado pois o resultado final foi igual ");
+	 	printf (" O valor de d=%.1f\n",d);
+	 	printf (" Os parêntes foi alterado pois o resultado final foi igual \n\n");
 
 	double e = 3+(16-2)/(2*(9-2));
-		printf (" O valor de e=%.1f",e);
-		printf (" Os parêntes não pode ser alterado pois o resultado final e diferente");
+		printf (" O valor de e=%.1f\n",e);
+		printf (" Os parêntes não pode ser alterado pois o resultado final e diferente\n\n");
 
 	double f = (6/3)+(8/2);
 		printf (" Os valor de f e= %.1f\n",f );
-		printf ("Os parêntes pode ser alterado pois o resultado final e igual");
+		printf ("Os parêntes pode ser alterado pois o resultado final e igual\n\n");
 
 	double g = ((3+(8/2))*4)+(3*2);
 		printf (" O valor de g= %.1f\n");
-		printf (" Os parêntes pode ser alterado pois o resultado final e igual");
+		printf (" Os parêntes pode ser alterado pois o resultado final e igual\n\n");
 
 	double h = (6*(3*3)+6)-10;
-	 	printf (" O valor de h= %.1f",h);
-	 	printf (" O parêntes pode ser alterado pois o resultado final e igual");
+	 	printf (" O valor de h= %.1f\n",h);
+	 	printf (" O parêntes pode ser alterado pois o resultado final e igual\n\n");
 
 	double i = (((10*8)+3)*9);
-		printf (" O valor de i= %.1f",i);
-		printf (" Os parêntes pode ser alterado pois o resultado final e igual");
+		printf (" O valor de i= %.1f\n",i);
+		printf (" Os parêntes pode ser alterado pois o resultado final e igual\n\n");
 
 	double j = ((-12)*(-4))+(3*(-4));
-	 	printf (" O valor de j= %.1f",j);
-	 	printf (" Os parêntes pode ser alterado pois o resultado final e igual");
+	 	printf (" O valor de j= %.1f\n",j);
+	 	printf (" Os parêntes pode ser alterado pois o resultado final e igual\n\n");
 
 		
 		
