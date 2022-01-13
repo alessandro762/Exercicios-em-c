@@ -14,7 +14,7 @@ int main()  {
 
 		antecessor= numero-1;
 
-		printf (" O antecessor de",numero"e:",antecessor);
+		printf (" O antecessor de %d",numero"e:",antecessor);
 
 
 
