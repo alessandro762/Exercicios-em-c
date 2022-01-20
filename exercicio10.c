@@ -14,13 +14,13 @@ printf("O custo de fabrica e:");
 
 scanf("%lf",&custo_de_fabrica);
 
-percentual_distribuidor=(custo_de_fabrica*0.28)+custo_de_fabrica;
+percentual_distribuidor=(custo_de_fabrica*0.28);
 
-imposto=(custo_de_fabrica*0.45)+custo_de_fabrica;
+imposto=(custo_de_fabrica*0.45);
 
-custo_para_consumidor=percentual_distribuidor+imposto+custo_de_fabrica+custo_de_fabrica;
+custo_para_consumidor=percentual_distribuidor+imposto+custo_de_fabrica;
 
-printf("O valor do veiculo e:%.3lf",custo_para_consumidor);
+printf("O valor do veiculo e:%.2lf",custo_para_consumidor);
 
 
 
