@@ -6,13 +6,13 @@ int main() {
   printf("Digite um numero:");
   scanf("%lf",&numero);
   
-  if(numero > 0)
+  if(numero >=0)
   {
-    printf("O numero que voce digitou e negativo ");
+    printf("O numero que voce digitou e positivo ");
 
   }
   else{
-  printf("O numero que voce digitou e positivo");
+  printf("O numero que voce digitou e negativo");
 
   }
   
