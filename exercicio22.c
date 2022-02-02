@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main(){
+//A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais
+//de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%.
+//Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora e escreva
+//o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas
+//(considere que o mês possua 4 semanas exatas).
+
+
+double salario;
+int horas_trabalhadas;
+double salario_hora;
+int total_horas;
+double total_hora_extra;
+int jornada_de_trabalho=160; 
+
+
+printf("Digite o valor do seu salario por hora:\n");
+scanf("%lf",&salario_hora);
+
+printf ("Digite a quantidade de horas trabalhadas:");
+scanf("%d",&horas_trabalhadas);
+
+salario=salario_hora*160;
+
+salario_hora=salario/jornada_de_trabalho;
+total_horas=horas_trabalhadas-jornada_de_trabalho;
+total_hora_extra=(salario_hora*1.5)*total_horas;
+salario=salario+total_hora_extra;
+printf("Seu salario mais a hora extra e de: %.2lf",salario);
+}
